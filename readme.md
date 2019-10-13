@@ -11,3 +11,15 @@
  - Used **Prettier** for keeping the code clean.
  - Used **NodeJs** for back-end integration.
  - Used **ExpressJS** for rest-api's  and **MongoDB** for database.
+ 
+## Integration Techniques
+
+-  Used Separate collection(table) for saving the comments for news.
+-  Used Custom ***Tree parsing*** algorithm to parse the top level comments into tree structure. 
+
+## Product Usage Guide
+-  You can add the new news to the database by clicking the menu icon in the Application header.
+-  You can change the login user by selecting the user from the drop-down which is available in the App Header menu
+-   You can also add the new user in the same section as mentioned above.
+-   Logged in user can edit only his comments.
+-   Logged in user can delete the news which he created and also delete all the comments related to that news.
