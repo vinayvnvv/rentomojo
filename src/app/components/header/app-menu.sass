@@ -1,0 +1,111 @@
+@import './../../../sass/utils/var.sass'
+.app-menu
+    position: fixed
+    width: 100%
+    top: 0
+    left: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100%
+    z-index: 999
+    &>.back-drop
+        position: fixed
+        width: 100%
+        top: 0
+        left: 0
+        height: 100%
+        background-color: #ffffff
+        opacity: 0.7
+        z-index: 7
+        transition: 0.5s all
+    &>._content
+        background-color: #ffffff
+        min-width: 420px
+        z-index: 45
+        box-shadow: 0px 0px 20px 20px #00000017
+        padding: 21px
+        border-radius: 5px
+        position: relative
+        &>._close
+            position: absolute
+            top: 11px
+            right: 11px
+            cursor: pointer
+            color: #555555
+            &:hover
+                color: #000000
+        & ._center
+            display: flex
+            align-items: center
+            justify-content: center
+        & select
+            padding: 7px 9px
+            outline: none
+            min-width: 120px
+            background-color: #ffffff
+            border: 1px solid #d9d9d9
+            border-radius: 3px
+        & input, & textarea
+            outline: none
+            border: 1px solid #d9d9d9
+            border-radius: 3px
+            min-height: 25px
+            padding: 3px 11px
+            font-family: $font
+            &:focus
+                &::placeholder
+                    color: #bbbbbb
+        & ._success
+            color: green
+        & textarea
+            padding: 7px 11px
+            width: calc(100% - 30px)
+        & ._dvdr
+            margin: 21px -21px
+            min-height: 1px
+            background-color: #d9d9d9
+            width: calc(100% + 42px)
+        & ._error
+            color: #cc2222
+            font-size: 12px
+        & button
+            background-color: #ffffff
+            border: none
+            font-size: 13px
+            font-weight: 500
+            padding: 5px 9px
+            border-radius: 50em
+            outline: none
+            cursor: pointer
+            &[disabled], &:disabled
+                opacity: 0.3
+                pointer-events: none
+            &.primary
+                background-color: $primary
+                color: $primary-invert
+            &:hover
+                background-color: #f9f9f9
+                &.primary
+                    background-color: darken($primary, 9)
+        &>section
+            &>h2
+                margin: 0px
+                font-size: 16px
+                color: #444444
+                margin-bottom: 5px
+            &>._form
+                margin-top: 11px
+                font-size: 13px
+                &>._item
+                    display: flex
+                    align-items: flex-start
+                    margin: 11px 0px
+                    &._align-center
+                        align-items: center
+                    &>span
+                        min-width: 50%
+                        text-align: right
+                        margin-right: 6px
+                        &>small
+                            color: #666666

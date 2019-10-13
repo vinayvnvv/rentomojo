@@ -1,0 +1,9 @@
+{
+    "presets": [],
+    "plugins": ["@babel/plugin-transform-arrow-functions", "transform-vue-jsx", 
+                  ["module-resolver", {
+                    "root": ["./src"]}
+                  ]
+    ],
+    "only":  ["./src/build/js"]
+  }

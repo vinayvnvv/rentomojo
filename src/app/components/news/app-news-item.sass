@@ -1,0 +1,116 @@
+.app-news-item
+    margin: 15px 0px
+    &:first-child
+        margin-top: 0px
+    &>._card
+        // border: 1px solid #d9d9d9
+        background-color: #ffffff
+        border-radius: 4px
+        overflow: hidden
+        // box-shadow: 0px 1px 2px 1px #d9d9d977
+        &._disabled
+            opacity: 0.5
+            pointer-events: none
+        &>._avtr
+            width: 100%
+            height: 200px
+            border: none
+            background-color: #f0f0f0
+            outline: none
+            object-fit: cover
+        &>._content
+            border: 1px solid #c7c7c799
+            border-top: none
+            margin-top: -3px
+            padding: 21px
+            border-radius: 0px 0px 7px 7px
+            &._no-banner
+                border-top: 4px solid #d9d9d9
+                border-radius: 7px
+            &>._ttl
+                font-size: 20px
+                color: #000000
+                font-weight: 600
+            &>._info
+                display: flex
+                align-items: center
+                &>div
+                    color: #555555
+                    font-size: 12px
+                    font-weight: 300
+                    margin: 0 3px
+                    margin-top: 5px
+                    &:first-child
+                        margin-left: 0px
+            &>._body
+                margin-top: 5px
+                line-height: 22px
+                color: #555555
+                font-size: 15px
+                &>._more
+                    color: #3b5998
+                    font-size: 12px
+                    cursor: pointer
+            &>._cmt-tlbr
+                display: flex
+                align-items: center
+                // height: 50px
+                margin: 0 -13px
+                margin-top: 5px
+                &>.cmt-btn
+                    border: none
+                    font-weight: 600
+                    font-size: 14px
+                    color: #333333
+                    height: 35px
+                    display: inline-flex
+                    align-items: center
+                    line-height: 1px
+                    border-radius: 50px
+                    transition: 0.3s all
+                    padding: 0 13px
+                    &>i
+                        margin-right: 6px
+                        font-size: 14px
+                        margin-bottom: -1px
+                    &>span
+                        margin-top: -1px
+                    &:hover
+                        background-color: #f9f9f9
+                        // box-shadow: 0px 0px 0px 1px #d9d9d977
+                    &:active
+                        background-color: #bbbbbb
+                &>span
+                    margin-left: 5px
+                    font-size: 12px
+                    color: #777777
+                    &:before
+                        content: '·'
+                        margin-right: 9px
+                    &>button
+                        font-size: 12px
+                        border: 0px
+                        color: #666
+                        outline: none
+                        background-color: transparent
+                        cursor: pointer
+                        &:hover
+                            text-decoration: underline
+            &>._comment-section
+                border-top: 1px solid #d9d9d9
+                margin: 0 -21px
+                margin-top: 5px
+                padding: 15px 21px 0px 21px
+                &>._del
+                    margin-top: -9px
+                    margin-bottom: 5px
+                    &>button
+                        color: #555
+                        outline: none
+                        border: none
+                        background-color: transparent
+                        font-size: 12px
+                        cursor: pointer
+                        &:hover
+                            text-decoration: underline
+                        

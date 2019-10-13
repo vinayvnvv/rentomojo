@@ -1,0 +1,18 @@
+@import "./utils/var.sass"
+$content-padding: 21px
+.app
+    &>.app-header
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: $app-header-height
+        z-index: 2
+        background-color: #ffffff
+    &>.app-content
+        z-index: 1
+        padding: $content-padding
+        margin-top: $app-header-height
+.app-container
+    max-width: $app-max-width
+    margin: 0 auto

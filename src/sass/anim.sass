@@ -1,0 +1,17 @@
+@keyframes slide-to-top
+    from
+        transform: translateY(13px)
+        opacity: 0.5
+    to
+        transform: translateY(0px)
+        opacity: 1
+.slide-to-top
+    animation-name: slide-to-top
+    animation-duration: 0.3s
+    animation-timing-function: ease-out
+
+@keyframes app-spinner
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
