@@ -23,3 +23,13 @@
 -   You can also add the new user in the same section as mentioned above.
 -   Logged in user can edit only his comments.
 -   Logged in user can delete the news which he created and also delete all the comments related to that news.
+
+## Installation
+
+- Clone to the repository
+	- `git clone https://github.com/vinayvnvv/rentomojo.git`
+- Install packages
+	-  `npm install`
+- Run the Application
+	-  `npm start`
+- Once you run the application, server is started in `http://localhost:3000`
