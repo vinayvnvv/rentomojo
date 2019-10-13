@@ -2,7 +2,7 @@
 
 ## Stats
 
- - Assignment has been completed in **2 days **
+ - Assignment has been completed in **2 days**
  - Project created without any external **UI framework** and all UI components and styles are created by custom.
  - Created with plain **Javascript** and used **Vue.js** for data-bindings.
  - Used **SASS** pre-processor for css styles. Theme colors & dimensions can be changed with one file( `app/sass/utils/var.sass` ).
