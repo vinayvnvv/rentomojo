@@ -1,11 +1,18 @@
 # RentoMojo Assignment - HACKER-NEWS
 
 ## Stats
-
+-  This Application is created with a full productive and also professional and having below features
+	- Adding new news feed
+	- Add comments to the news
+	- You can add nested repay for a each comment to nth level.
+	- You can delete the replies and comments only if you created that.
+	- You can delete the news only if you are created that.
+	- Change logged in user to create and adding news.
+	- you can add new User to the portal.
  - Assignment has been completed in **2 days**
  - Project created without any external **UI framework** and all UI components and styles are created by custom.
  - Created with plain **Javascript** and used **Vue.js** for data-bindings.
- - Used **SASS** pre-processor for css styles. Theme colors & dimensions can be changed with one file( `app/sass/utils/var.sass` ).
+ - Used **SASS** pre-processor for css styles. Theme colors & dimensions can be changed with one file ( `app/sass/utils/var.sass` ).
  - Used **JSX** for writing html part inside the javascript code itself.
  - Used **Babel.js** compiler for javascript syntax and JSX transforms.
  - Used **Prettier** for keeping the code clean.
@@ -28,6 +35,8 @@
 
 - Clone to the repository
 	- `git clone https://github.com/vinayvnvv/rentomojo.git`
+-   Go to the cloned directory
+	-  `cd /rentomojo`
 - Install packages
 	-  `npm install`
 - Run the Application
