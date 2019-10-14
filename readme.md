@@ -1,13 +1,13 @@
 # RentoMojo Assignment - HACKER-NEWS
 
 ## Stats
--  This Application is created with a full productive and also professional and having below features
+-  This Application is created with a fully productive and also professional and having below features
 	- Adding new news feed
 	- Add comments to the news
-	- You can add nested repay for a each comment to nth level.
-	- You can delete the replies and comments only if you created that.
+	- You can add nested reply for a each comment to nth level.
+	- You can delete the replies and comments only if you are created that.
 	- You can delete the news only if you are created that.
-	- Change logged in user to create and adding news.
+	- You ca change logged in users for managing news and comments.
 	- you can add new User to the portal.
  - Assignment has been completed in **2 days**
  - Project created without any external **UI framework** and all UI components and styles are created by custom.
@@ -31,7 +31,7 @@
 -   Logged in user can edit only his comments.
 -   Logged in user can delete the news which he created and also delete all the comments related to that news.
 
-## Installation
+## Installation & Run
 
 - Clone to the repository
 	- `git clone https://github.com/vinayvnvv/rentomojo.git`
