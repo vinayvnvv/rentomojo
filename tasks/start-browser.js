@@ -8,4 +8,4 @@ setTimeout(() => {
         "\x1b[36m%s\x1b[0m",
         "Live Server started on http://localhost:" + process.env.PORT + "/"
     );
-}, 2800);
+}, 4000);
