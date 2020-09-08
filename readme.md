@@ -1,4 +1,4 @@
-# RentoMojo Assignment - HACKER-NEWS
+# HACKER-NEWS
 
 ## Stats
 -  This Application is created with a fully productive and also professional and having below features
